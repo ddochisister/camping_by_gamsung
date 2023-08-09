@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-size: 14px;
+    color: #333;
+    background: #fcfcfc;
+    font-family: "GabiaOndam";
+}
+@font-face{
+    font-family: "GabiaOndam";
+    src: url(../font/GabiaOndam.ttf);
+}
+
+.clear_fix::after,
+.clear_fix::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+table{
+    border-collapse: collapse;
+}
+img{vertical-align: center;}
+
+
+input,select,button,p,span{
+    font-family: "오뮤_다예쁨체";
+    font-size: 15px;
+}
+p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+span{
+    padding-top: 5px;
+    color: #DA7575;
+}
+
+
+@font-face{
+    font-family: "오뮤_다예쁨체";
+    src: url(../font/오뮤_다예쁨체.ttf);
+}
